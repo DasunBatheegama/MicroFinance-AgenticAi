@@ -6,6 +6,7 @@ use App\Livewire\GroupFormationWizardA2;
 use App\Livewire\LoanApplicationFormA2;
 use App\Livewire\CreditDecisionPanelA2;
 use App\Livewire\DisbursementChecklistA4;
+use App\Livewire\RepaymentPostingFormA4;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +28,4 @@ Route::get('/group/form', GroupFormationWizardA2::class);
 Route::get('/loan-application', LoanApplicationFormA2::class);
 Route::get('/credit-decision', CreditDecisionPanelA2::class);
 Route::get('/disbursement-checklist', DisbursementChecklistA4::class);
+Route::get('/repayment-posting', RepaymentPostingFormA4::class);
