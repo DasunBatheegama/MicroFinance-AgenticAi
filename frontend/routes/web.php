@@ -8,6 +8,7 @@ use App\Livewire\CreditDecisionPanelA2;
 use App\Livewire\DisbursementChecklistA4;
 use App\Livewire\RepaymentPostingFormA4;
 use App\Livewire\ArrearsDashboardA3;
+use App\Livewire\GraduationAssessmentA2;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,3 +32,5 @@ Route::get('/credit-decision', CreditDecisionPanelA2::class);
 Route::get('/disbursement-checklist', DisbursementChecklistA4::class);
 Route::get('/repayment-posting', RepaymentPostingFormA4::class);
 Route::get('/arrears-dashboard', ArrearsDashboardA3::class);
+Route::get('/graduation-assessment', GraduationAssessmentA2::class);
+
