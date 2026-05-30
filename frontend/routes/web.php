@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Livewire\ClientRegistrationForm;
+use App\Livewire\GroupFormationWizardA2;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,4 @@ Route::get('/', function () {
 });
 
 Route::get('/client/register', ClientRegistrationForm::class);
+Route::get('/group/form', GroupFormationWizardA2::class);
